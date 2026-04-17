@@ -1,0 +1,25 @@
+{
+  "name": "推し活が変える消費の地図 — TOKO Life Trend NEWS",
+  "short_name": "TOKO Trend",
+  "description": "推し活消費の構造変化を読む特集記事",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7C3AED",
+  "lang": "ja",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
