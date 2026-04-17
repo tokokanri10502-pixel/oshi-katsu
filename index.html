@@ -323,11 +323,10 @@
       align-items: stretch;
       gap: 0;
       margin: 20px 0;
-      overflow-x: auto;
     }
     .journey .step {
       flex: 1;
-      min-width: 90px;
+      min-width: 0;
       text-align: center;
       padding: 14px 6px;
       background: var(--primary-light);
@@ -341,6 +340,7 @@
     .journey .arrow {
       display: flex;
       align-items: center;
+      justify-content: center;
       padding: 0 2px;
       color: var(--primary-mid);
       font-size: 1.1rem;
@@ -353,6 +353,23 @@
     .journey .step.highlight {
       background: var(--primary);
       color: #fff;
+    }
+
+    @media (max-width: 540px) {
+      .journey {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .journey .step {
+        flex: none;
+        padding: 12px 16px;
+        text-align: left;
+      }
+      .journey .arrow {
+        transform: rotate(90deg);
+        padding: 2px 0;
+        height: 24px;
+      }
     }
 
     /* ===== CONCLUSION CARD ===== */
