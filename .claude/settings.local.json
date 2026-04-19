@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/oshi-katsu status)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/tokusha-nihon-hinkon status)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/deep-lab-site status)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/oshi-katsu log --oneline -5)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/oshi-katsu diff HEAD)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/tokusha-nihon-hinkon add index.html)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/tokusha-nihon-hinkon commit -m \"feat: ヘッダーロゴをDEEP Labへの戻りリンクに変更、footer表記を統一\")",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/deep-lab-site add kaimono-fukei/index.html)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/deep-lab-site commit -m \"feat: ヘッダーロゴをDEEP Labへの戻りリンクに変更、footer表記を統一\")",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/tokusha-nihon-hinkon push)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/deep-lab-site push)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/deep-lab-site add icon-ocean.svg icon-tw.svg)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/deep-lab-site commit -m \"feat: アイコン2案を追加（深海サーチライト・幾何学TW）\")",
+      "Bash(node -e \"require\\('sharp'\\)\")",
+      "Bash(node -e \"require\\('canvas'\\)\")",
+      "Bash(npm install *)",
+      "Bash(sharp --version)",
+      "Bash(npx sharp-cli *)",
+      "Bash(sharp -i icon-ocean.svg -o icons/icon-192.png resize 192 192)",
+      "Bash(sharp -i icon-ocean.svg -o icons/icon-512.png resize 512 512)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/deep-lab-site add manifest.json icons/icon-192.png icons/icon-512.png index.html)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/deep-lab-site commit -m \"feat: PWAアイコン・manifest追加（深海サーチライトデザイン）\")",
+      "Bash(sharp -i icon-ocean.svg -o icons/favicon-32.png resize 32 32)",
+      "Bash(sharp -i icon-ocean.svg -o icons/favicon-16.png resize 16 16)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/deep-lab-site add icons/favicon-32.png icons/favicon-16.png index.html)",
+      "Bash(git -C C:/Users/seisaku00/Desktop/Development/deep-lab-site commit -m \"feat: favicon追加（深海サーチライトデザイン）\")"
+    ]
+  }
+}
